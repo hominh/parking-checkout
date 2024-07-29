@@ -369,7 +369,6 @@ const CheckoutForm = ({route, navigation}) => {
   }, [amount]);*/
 
   return (
-    <ScrollView>
       <SafeAreaView style={{flex: 1, backgroundColor: COLORS.white}}>
         {isLoading ? (
           <View style={styles.loaderStyle}>
@@ -826,7 +825,6 @@ const CheckoutForm = ({route, navigation}) => {
           )}
         </View>
       </SafeAreaView>
-    </ScrollView>
   );
 };
 
